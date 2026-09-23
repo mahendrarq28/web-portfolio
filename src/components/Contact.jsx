@@ -81,7 +81,6 @@ export default function Contact() {
               </a>
             ))}
           </div>
-          <p className="mt-4 text-sm text-muted">{social.email}</p>
         </div>
 
         <form onSubmit={handleSubmit} noValidate className="space-y-5">
