@@ -1,0 +1,29 @@
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Projects from "../components/Projects";
+import DesignWorks from "../components/DesignWorks";
+import Experience from "../components/Experience";
+import Resume from "../components/Resume";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+
+export default function Home() {
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      <main className="flex-1">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <DesignWorks />
+        <Experience />
+        <Resume />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
+}
